@@ -1,4 +1,4 @@
-@uthor: Mohammadreza Baghery
+''' @ author: Mohammadreza Baghery '''
 
 import numpy as np 
 from matplotlib import pyplot as plt 
