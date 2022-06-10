@@ -28,7 +28,7 @@ image_dataset = pd.DataFrame() # Dataframe to capture image features
  
 for image in os.listdir(img_path):
     if 'tif' in str(image):
-        print(image)
+        #print(image)
         df = pd.DataFrame()
         input_img = cv2.imread(img_path + image)
 
@@ -40,7 +40,7 @@ for image in os.listdir(img_path):
         else: 
             raise Exception('The module works only with grayscale and RGB images!')
  
-        print(img.shape)
+        #print(img.shape)
 
         ###########################################################################
         # SRART ADDING DATA TO THE DATAFRAME
